@@ -8,11 +8,11 @@ if (typeof $argument !== "undefined") {
 //默认安徽油价
 const encodedprovname = encodeURIComponent(provname);
 const apiUrls = [
-  `https://apis.tianapi.com/oilprice/index?key=231de491563c35731436829ac52aad43&prov=${encodedprovname}`,
-  `https://apis.tianapi.com/oilprice/index?key=a2bc7a0e01be908881ff752677cf94b7&prov=${encodedprovname}`,
-  `https://apis.tianapi.com/oilprice/index?key=1bcc67c0114bc39a8818c8be12c2c9ac&prov=${encodedprovname}`,
-  `https://apis.tianapi.com/oilprice/index?key=3c5ee42145c852de4147264f25b858dc&prov=${encodedprovname}`,
-  `https://apis.tianapi.com/oilprice/index?key=d718b0f7c2b6d71cb3a9814e90bf847f&prov=${encodedprovname}`
+  `https://apis.tianapi.com/oilprice/index?key=3fbfd7698d10e975d1d66d052c7fcd65&prov=${encodedprovname}`,
+  `https://apis.tianapi.com/oilprice/index?key=3fbfd7698d10e975d1d66d052c7fcd65&prov=${encodedprovname}`,
+  `https://apis.tianapi.com/oilprice/index?key=3fbfd7698d10e975d1d66d052c7fcd65&prov=${encodedprovname}`,
+  `https://apis.tianapi.com/oilprice/index?key=3fbfd7698d10e975d1d66d052c7fcd65&prov=${encodedprovname}`,
+  `https://apis.tianapi.com/oilprice/index?key=3fbfd7698d10e975d1d66d052c7fcd65&prov=${encodedprovname}`
 ];
 let currentIndex = 0;
 
